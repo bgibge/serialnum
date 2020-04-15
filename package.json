@@ -1,0 +1,38 @@
+{
+  "name": "serialnum",
+  "version": "0.0.1",
+  "description": "随机序列号生成器",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "chalk-console": "^1.1.0",
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.1",
+    "should": "^11.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha __test__/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bgibge:j9jpYrzcxKRPu1zy@github.com/bgibge/serialnum.git"
+  },
+  "keywords": [
+    "序列号",
+    "编码",
+    "random",
+    "code"
+  ],
+  "author": "xiaorujun@genomics.cn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgibge/serialnum/issues"
+  },
+  "homepage": "https://github.com/bgibge/serialnum#readme"
+}
